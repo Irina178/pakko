@@ -4,7 +4,7 @@ html {
   font-size: 10px;
 }
 body {
-  color: $drak;
+  color: $dark;
   font-size: 16px;
   font-family: 'Inter', sans-serif;
 }
@@ -27,7 +27,7 @@ a {
   margin: 0;
 
   &__item {
-     margin-left: 4.4rem;
+    margin-left: 4.4rem;
     &:first-child {
       margin-left: 0;
     }
@@ -37,7 +37,7 @@ a {
   }
 
   &__link {
-    color: $drak;
+    color: $dark;
   }
   &__btn {
     font-size: 1.4rem;
@@ -45,5 +45,53 @@ a {
     color: $white;
     padding: 1.6rem 2.5rem;
     border-radius: 0.6rem;
+  }
+}
+
+.baner {
+  text-align: center;
+  background-color: $dark;
+  color: $white;
+  padding-top: 62px;
+}
+.container {
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.banner {
+  &__title {
+    font-size: 5.5rem;
+    max-width: 570px;
+    margin: 0 auto 3.1rem;
+    position: relative;
+  }
+
+  &__text {
+  }
+}
+.btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  &__btn {
+    border: 1px solid $white;
+    border-radius: 0.6rem;
+    font-size: 1.6rem;
+    padding: 1.7rem 3.7rem;
+    color: $white;
+    margin: 0.8rem;
+    display: inline-block;
+  }
+
+  &__btn-main {
+    font-size: 1.5rem;
+    background-color: $purple;
+    border-color: $purple;
+    padding: 1.6rem 3.7rem;
+  }
+  &__img {
+     position: absolute;
   }
 }
