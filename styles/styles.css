@@ -53,6 +53,8 @@ a {
   background-color: #100A30;
   color: #FFFFFF;
   padding-top: 62px;
+  position: relative;
+  padding-bottom: 757px;
 }
 
 .container {
@@ -65,7 +67,6 @@ a {
   font-size: 5.5rem;
   max-width: 570px;
   margin: 0 auto 3.1rem;
-  position: relative;
 }
 .btn-group {
   display: flex;
@@ -90,4 +91,7 @@ a {
 }
 .btn-group__img {
   position: absolute;
+  bottom: -200px;
+  right: 0;
+  left: 0;
 }/*# sourceMappingURL=styles.css.map */
