@@ -68,8 +68,8 @@ a {
     margin: 0 auto 3.1rem;
   }
 
-  &__text {
-  }
+  // &__text {
+  // }
 }
 .btn-group {
   display: flex;
@@ -97,5 +97,79 @@ a {
     bottom: -200px;
     right: 0;
     left: 0;
+  }
+}
+.section{
+  padding-top: 150px;
+  &__title{
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-top: 4rem;
+    text-align: center;
+    min-width: 750px;
+    margin: 0 auto;
+  }
+}
+.tarif {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  &-item {
+    flex: 0 0 32%;
+    &-1 {
+      .tarif-footer {
+        background-color: rgba(16, 10, 48, 0.03);
+      }
+      .tarif-list__item {
+        ::before {
+          background-image: url(../img/Vector1.svg);
+        }
+      }
+    }
+    &-2 {
+      .tarif-footer {
+        background-color: rgba(25, 199, 135, 0.05);
+      }
+      .tarif-list__item {
+        ::before {
+          background-image: url(../img/Vector2.svg);
+        }
+      }
+    }
+    &-3 {
+      .tarif-footer {
+        background-color: rgba(252, 185, 52, 0.05);
+      }
+      .tarif-list__item {
+        ::before {
+          background-image: url(../img/Vector3.svg);
+        }
+      }
+    }
+  }
+  &-footer {
+    padding: 2.4rem 3rem;
+    border-radius: 0 0 0.8rem 0.8rem;
+  }
+  &-list {
+    list-style: none;
+    padding-left: 0;
+    &__item {
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      padding-left: 3rem;
+      margin-bottom: 1.4rem;
+      font-size: 1.4rem;
+      ::before {
+        content: '';
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        top: calc(50%-1rem);
+        left: 0;
+      }
+    }
   }
 }

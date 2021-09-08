@@ -68,6 +68,7 @@ a {
   max-width: 570px;
   margin: 0 auto 3.1rem;
 }
+
 .btn-group {
   display: flex;
   align-items: center;
@@ -93,5 +94,69 @@ a {
   position: absolute;
   bottom: -200px;
   right: 0;
+  left: 0;
+}
+
+.section {
+  padding-top: 150px;
+}
+.section__title {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin-top: 4rem;
+  text-align: center;
+  min-width: 750px;
+  margin: 0 auto;
+}
+
+.tarif {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.tarif-item {
+  flex: 0 0 32%;
+}
+.tarif-item-1 .tarif-footer {
+  background-color: rgba(16, 10, 48, 0.03);
+}
+.tarif-item-1 .tarif-list__item ::before {
+  background-image: url(../img/Vector1.svg);
+}
+.tarif-item-2 .tarif-footer {
+  background-color: rgba(25, 199, 135, 0.05);
+}
+.tarif-item-2 .tarif-list__item ::before {
+  background-image: url(../img/Vector2.svg);
+}
+.tarif-item-3 .tarif-footer {
+  background-color: rgba(252, 185, 52, 0.05);
+}
+.tarif-item-3 .tarif-list__item ::before {
+  background-image: url(../img/Vector3.svg);
+}
+.tarif-footer {
+  padding: 2.4rem 3rem;
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+.tarif-list {
+  list-style: none;
+  padding-left: 0;
+}
+.tarif-list__item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 1.4rem;
+  font-size: 1.4rem;
+}
+.tarif-list__item ::before {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: calc(50%-1rem);
   left: 0;
 }/*# sourceMappingURL=styles.css.map */
