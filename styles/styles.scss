@@ -99,9 +99,9 @@ a {
     left: 0;
   }
 }
-.section{
+.section {
   padding-top: 150px;
-  &__title{
+  &__title {
     font-size: 4.8rem;
     font-weight: 700;
     margin-top: 4rem;
@@ -111,6 +111,7 @@ a {
   }
 }
 .tarif {
+  margin-top: 60px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -171,5 +172,47 @@ a {
         left: 0;
       }
     }
+  }
+}
+.tarif-header {
+  background-repeat: no-repeat;
+  align-items: flex-end;
+}
+.tarif-header-one {
+  background-image: url(../img/Frame1.png);
+  width: 395px;
+  height: 250px;
+  align-items: flex-end;
+}
+
+.tarif-header-three {
+  background-image: url(../img/Frame2.png);
+  width: 395px;
+  height: 250px;
+  align-items: flex-end;
+}
+.tarif-header-twoo {
+  background-image: url(../img/Frame3.png);
+  width: 395px;
+  height: 250px;
+  align-content: flex-end;
+}
+
+.tarif {
+  &__info {
+    padding-top: 158px;
+    padding-left: 28px;
+  }
+}
+
+.tarif-info {
+  &__title {
+    font-size: 24px;
+
+    color: $white;
+    margin-top: 12px;
+  }
+
+  &__price {
   }
 }

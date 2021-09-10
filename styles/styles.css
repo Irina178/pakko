@@ -110,6 +110,7 @@ a {
 }
 
 .tarif {
+  margin-top: 60px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -159,4 +160,41 @@ a {
   position: absolute;
   top: calc(50%-1rem);
   left: 0;
+}
+
+.tarif-header {
+  background-repeat: no-repeat;
+  align-items: flex-end;
+}
+
+.tarif-header-one {
+  background-image: url(../img/Frame1.png);
+  width: 395px;
+  height: 250px;
+  align-items: flex-end;
+}
+
+.tarif-header-three {
+  background-image: url(../img/Frame2.png);
+  width: 395px;
+  height: 250px;
+  align-items: flex-end;
+}
+
+.tarif-header-twoo {
+  background-image: url(../img/Frame3.png);
+  width: 395px;
+  height: 250px;
+  align-content: flex-end;
+}
+
+.tarif__info {
+  padding-top: 158px;
+  padding-left: 28px;
+}
+
+.tarif-info__title {
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-top: 12px;
 }/*# sourceMappingURL=styles.css.map */
