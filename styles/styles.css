@@ -245,5 +245,81 @@ a {
 }
 
 .pakko__img {
-  margin-top: 12px;
+  margin-top: 5px;
+}
+
+.product {
+  background-color: #FFFFFF;
+}
+
+.talk {
+  width: 596px;
+  height: 190px;
+  background-color: #FFFFFF;
+}
+.talk__heading {
+  font-size: 48px;
+  color: #100A30;
+}
+
+.employees__text {
+  font-size: 17px;
+  color: #4C4764;
+  padding: 0px 53px 20px 40px;
+}
+.employees__heading {
+  font-size: 16px;
+  color: #100A30;
+  padding-left: 40px;
+}
+
+.name {
+  padding: 40px 53px 36px 40px;
+}
+.name__heading {
+  font-size: 14px;
+  color: #100A30;
+}
+.name__link {
+  font-size: 15px;
+  color: #4C4764;
+}
+.employees--gray {
+  width: 596px;
+  height: 298px;
+  background-color: #E8E5FB;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+.employees--green {
+  width: 596px;
+  height: 220px;
+  background-color: #E8FAF3;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+.employees--red {
+  width: 596px;
+  height: 196px;
+  background-color: #FDEBEE;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+.employees--blue {
+  width: 596px;
+  height: 238px;
+  background-color: #E6F3FF;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+.employees--yellow {
+  width: 596px;
+  height: 250px;
+  background-color: #FFF5E1;
+  border: 1px solid red;
+  border-radius: 8px;
 }/*# sourceMappingURL=styles.css.map */

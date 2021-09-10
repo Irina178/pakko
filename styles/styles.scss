@@ -265,3 +265,89 @@ a {
 .pakko__img {
   margin-top: 5px;
 }
+
+.product {
+  background-color: $white;
+}
+.talk {
+  width: 596px;
+  height: 190px;
+  background-color: $white;
+
+  &__heading {
+    font-size: 48px;
+    color: $dark;
+  }
+}
+.employees {
+  &__text {
+    font-size: 17px;
+    color: $grafite;
+    padding: 0px 53px 20px 40px;
+  }
+
+  &__heading {
+    font-size: 16px;
+    color: $dark;
+    padding-left: 40px;
+  }
+}
+.name {
+  
+  padding: 40px 53px 36px 40px;
+  &__heading {
+    
+    font-size: 14px;
+    color: $dark;
+  }
+
+  &__link {
+    font-size: 15px;
+    color: $grafite;
+  }
+
+  &__social {
+  }
+}
+.name {
+  &__img {
+  }
+}
+
+.employees--gray {
+  width: 596px;
+  height: 298px;
+  background-color: $gray;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+.employees--green {
+  width: 596px;
+  height: 220px;
+  background-color: $green;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+.employees--red {
+  width: 596px;
+  height: 196px;
+  background-color: $red;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+.employees--blue {
+  width: 596px;
+  height: 238px;
+  background-color: $blue;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+.employees--yellow {
+  width: 596px;
+  height: 250px;
+  background-color: $yellow;
+  border: 1px solid red;
+  border-radius: 8px;
+}
