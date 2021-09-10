@@ -54,7 +54,6 @@ a {
   color: #FFFFFF;
   padding-top: 62px;
   position: relative;
-  padding-bottom: 757px;
 }
 
 .container {
@@ -92,7 +91,7 @@ a {
 }
 .btn-group__img {
   position: absolute;
-  bottom: -200px;
+  top: 100px;
   right: 0;
   left: 0;
 }
@@ -196,5 +195,55 @@ a {
 .tarif-info__title {
   font-size: 24px;
   color: #FFFFFF;
+  margin-top: 12px;
+}
+
+.baner__img {
+  bottom: -20px;
+}
+
+.footer {
+  display: flex;
+  background-color: #F8F8F9;
+  padding: 56px 196px 58px 104px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.time__img {
+  margin-top: 2rem;
+}
+.time__heading {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.action {
+  padding: 0px;
+}
+
+.action-list {
+  font-size: 15px;
+  list-style: none;
+  margin-bottom: 6px;
+}
+
+.social {
+  justify-content: flex-start;
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+}
+.social__list {
+  list-style: none;
+}
+.social__list:nth-child(2) {
+  margin: 0px 12px 0px 12px;
+}
+.social__link {
+  list-style: none;
+}
+
+.pakko__img {
   margin-top: 12px;
 }/*# sourceMappingURL=styles.css.map */
