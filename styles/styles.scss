@@ -199,6 +199,7 @@ a {
 }
 
 .tarif {
+  margin-bottom: 204px;
   &__info {
     padding-top: 158px;
     padding-left: 28px;
@@ -219,11 +220,13 @@ a {
 
 .footer {
   display: flex;
-  background-color: $bc;
 
-  padding: 56px 196px 58px 104px;
+  max-width: 1232px;
+
+  
   align-items: baseline;
   justify-content: space-between;
+  position: relative;
 }
 
 .time {
@@ -267,6 +270,9 @@ a {
 }
 
 .product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   background-color: $white;
 }
 .talk {
@@ -293,10 +299,8 @@ a {
   }
 }
 .name {
-  
-  padding: 40px 53px 36px 40px;
+  padding: 40px 53px 0px 40px;
   &__heading {
-    
     font-size: 14px;
     color: $dark;
   }
@@ -306,11 +310,15 @@ a {
     color: $grafite;
   }
 
-  &__social {
-  }
+  // &__social {
+  // }
 }
 .name {
+  display: flex;
+  justify-content: flex-start;
   &__img {
+    width: 48px;
+    height: 48px;
   }
 }
 
@@ -318,36 +326,45 @@ a {
   width: 596px;
   height: 298px;
   background-color: $gray;
-  border: 1px solid red;
+
   border-radius: 8px;
+  margin-bottom: 40px;
 }
 .employees--green {
   width: 596px;
   height: 220px;
   background-color: $green;
-  border: 1px solid red;
+ 
   border-radius: 8px;
+  margin-bottom: 40px;
 }
 .employees--red {
   width: 596px;
   height: 196px;
   background-color: $red;
-  border: 1px solid red;
+ 
   border-radius: 8px;
+  margin-bottom: 40px;
 }
 
 .employees--blue {
   width: 596px;
   height: 238px;
   background-color: $blue;
-  border: 1px solid red;
+ 
   border-radius: 8px;
+  margin-bottom: 0px;
 }
 
 .employees--yellow {
   width: 596px;
   height: 250px;
   background-color: $yellow;
-  border: 1px solid red;
+
   border-radius: 8px;
+  margin-bottom: 40px;
+}
+.wrapper {
+  margin-left: 16px;
+  margin-right: 300px;
 }

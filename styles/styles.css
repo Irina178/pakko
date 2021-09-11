@@ -187,6 +187,9 @@ a {
   align-content: flex-end;
 }
 
+.tarif {
+  margin-bottom: 204px;
+}
 .tarif__info {
   padding-top: 158px;
   padding-left: 28px;
@@ -204,10 +207,10 @@ a {
 
 .footer {
   display: flex;
-  background-color: #F8F8F9;
-  padding: 56px 196px 58px 104px;
+  max-width: 1232px;
   align-items: baseline;
   justify-content: space-between;
+  position: relative;
 }
 
 .time__img {
@@ -249,6 +252,9 @@ a {
 }
 
 .product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   background-color: #FFFFFF;
 }
 
@@ -274,7 +280,7 @@ a {
 }
 
 .name {
-  padding: 40px 53px 36px 40px;
+  padding: 40px 53px 0px 40px;
 }
 .name__heading {
   font-size: 14px;
@@ -284,42 +290,57 @@ a {
   font-size: 15px;
   color: #4C4764;
 }
+
+.name {
+  display: flex;
+  justify-content: flex-start;
+}
+.name__img {
+  width: 48px;
+  height: 48px;
+}
+
 .employees--gray {
   width: 596px;
   height: 298px;
   background-color: #E8E5FB;
-  border: 1px solid red;
   border-radius: 8px;
+  margin-bottom: 40px;
 }
 
 .employees--green {
   width: 596px;
   height: 220px;
   background-color: #E8FAF3;
-  border: 1px solid red;
   border-radius: 8px;
+  margin-bottom: 40px;
 }
 
 .employees--red {
   width: 596px;
   height: 196px;
   background-color: #FDEBEE;
-  border: 1px solid red;
   border-radius: 8px;
+  margin-bottom: 40px;
 }
 
 .employees--blue {
   width: 596px;
   height: 238px;
   background-color: #E6F3FF;
-  border: 1px solid red;
   border-radius: 8px;
+  margin-bottom: 0px;
 }
 
 .employees--yellow {
   width: 596px;
   height: 250px;
   background-color: #FFF5E1;
-  border: 1px solid red;
   border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.wrapper {
+  margin-left: 16px;
+  margin-right: 300px;
 }/*# sourceMappingURL=styles.css.map */
